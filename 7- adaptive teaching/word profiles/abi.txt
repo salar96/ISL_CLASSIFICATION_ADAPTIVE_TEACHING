@@ -1,6 +1,0 @@
-SEPCS:
-
-ID = 10
-NAME = SALAM
-
-
