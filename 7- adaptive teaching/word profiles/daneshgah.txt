@@ -1,0 +1,45 @@
+SEPCS:
+
+ID = 10
+NAME = SALAM
+
+
+--------------------
+SESSION 1:
+USER = morshedian
+DATE = 2020-05-20 13:03:01.559310
+
+The teaching will be based on the WSCM Module:
+
+RATING = 50
+STAT = MEDIUM
+****
+morshedian here is 50 (MEDIUM)
+
+RASA WILL DO IT 3.0 TIMES WITH THE TIMING = 5.0.
+
+The user performance at the end of the section:
+
+rep = 3.0
+acu = 0.0
+spd = 8.38
+--------------------
+SESSION 2:
+USER = salar
+DATE = 2020-05-26 12:50:54.343661
+
+The teaching will be based on the WSCM Module:
+
+RATING = 100
+STAT = HARD
+****
+salar here is 25.553637037969345 (WEAK)
+
+RASA WILL DO IT 5.0 TIMES WITH THE TIMING = 1.0.
+
+The user performance at the end of the section:
+
+rep = 1
+acu = 0.4309999942779541
+spd = 7.234
+

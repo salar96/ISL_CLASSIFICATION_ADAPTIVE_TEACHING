@@ -1,0 +1,103 @@
+SEPCS:
+
+ID = 10
+NAME = SALAM
+
+
+
+--------------------
+SESSION 1:
+USER = salar
+DATE = 2020-05-20 12:17:04.326339
+
+The teaching will be based on the WSCM Module:
+
+RATING = 50
+STAT = MEDIUM
+****
+salar here is 15.186519147240213 (WEAK)
+
+RASA WILL DO IT 5.0 TIMES WITH THE TIMING = 1.0.
+
+The user performance at the end of the section:
+
+rep = 1
+acu = 0.6320000290870667
+spd = 7.916
+
+--------------------
+SESSION 2:
+USER = salar
+DATE = 2020-05-26 12:54:52.921249
+
+The teaching will be based on the WSCM Module:
+
+RATING = 86.4784657305118
+STAT = HARD
+****
+salar here is 24.3006346458337 (WEAK)
+
+RASA WILL DO IT 5.0 TIMES WITH THE TIMING = 1.0.
+
+The user performance at the end of the section:
+
+rep = 1
+acu = 1.0
+spd = 8.502
+--------------------
+SESSION 3:
+USER = salar
+DATE = 2020-05-26 12:57:51.907459
+
+The teaching will be based on the WSCM Module:
+
+RATING = 68.47285312881813
+STAT = HARD
+****
+salar here is 25.832038964929588 (WEAK)
+
+RASA WILL DO IT 5.0 TIMES WITH THE TIMING = 1.03.
+
+The user performance at the end of the section:
+
+rep = 1
+acu = 1.0
+spd = 7.956
+--------------------
+SESSION 4:
+USER = esfandbod
+DATE = 2020-05-26 13:45:15.388142
+
+The teaching will be based on the WSCM Module:
+
+RATING = 17.694592179873602
+STAT = EASY
+****
+esfandbod here is 47.672446619242294 (MEDIUM)
+
+RASA WILL DO IT 1.0 TIMES WITH THE TIMING = 9.53.
+
+The user performance at the end of the section:
+
+rep = 1
+acu = 0.9929999709129333
+spd = 6.39
+--------------------
+SESSION 5:
+USER = zahra
+DATE = 2020-05-27 11:41:40.307093
+
+The teaching will be based on the WSCM Module:
+
+RATING = 11.316923215714532
+STAT = EASY
+****
+zahra here is 50 (MEDIUM)
+
+RASA WILL DO IT 1.0 TIMES WITH THE TIMING = 10.0.
+
+The user performance at the end of the section:
+
+rep = 1.0
+acu = 0.0
+spd = 6.74

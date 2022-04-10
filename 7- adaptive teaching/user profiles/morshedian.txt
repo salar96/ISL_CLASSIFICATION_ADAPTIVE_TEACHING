@@ -1,0 +1,54 @@
+SEPCS:
+
+ID = 5
+NAME = Mohsen
+
+WORDS PASSED = 
+___
+_ _ _
+WORDS FAILED = 
+___
+11
+7
+_ _ _
+--------------------
+
+--------------------
+SESSION 1:
+WORD = daneshgah
+DATE = 2020-05-20 13:03:01.573295
+
+The teaching will be based on the WSCM Module:
+
+RATING = 50
+STAT = MEDIUM
+****
+daneshgah here is 50 (MEDIUM)
+
+RASA WILL DO IT 3.0 TIMES WITH THE TIMING = 5.0.
+
+The user performance at the end of the section:
+
+rep = 3.0
+acu = 0.0
+spd = 8.38
+--------------------
+SESSION 2:
+WORD = bale
+DATE = 2020-05-20 13:04:58.210382
+
+The teaching will be based on the WSCM Module:
+
+RATING = 0
+STAT = WEAK
+****
+bale here is 87.58439483464443 (HARD)
+
+RASA WILL DO IT 5.0 TIMES WITH THE TIMING = 1.0.
+
+The user performance at the end of the section:
+
+rep = 5.0
+acu = 0.0020000000949949026
+spd = 9.362
+

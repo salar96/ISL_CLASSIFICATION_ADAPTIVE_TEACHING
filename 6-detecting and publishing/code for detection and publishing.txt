@@ -1,0 +1,122 @@
+#!/usr/bin/env/python
+#salar basiri
+
+from std_msgs.msg import Float32,Float64,String
+import numpy as np
+#import matplotlib.pyplot as plt
+from keras.models import Sequential
+import rospy
+
+classes={0:'qalat',1:'narenji',2:'sorkh',3:'sefid',4:'siah',5:'abi',6:'qahveiy',7:'bale',8:'na',9:'danestan',10:'eshtebah',11:'daneshgah',12:'dars',13:'hesadat',14:'ghamgin'}
+def return_mat(address):
+
+    file=open(address,'r+')
+    s=file.read()
+    #%%
+    SS=s.replace('"','')
+    SSS=SS.replace('data:','')
+    SSS=SSS.replace('\\','')
+    SSS=SSS.replace('\n','')
+    SSS=SSS.replace('---','')
+    S=SSS.split(" ")
+    q=[x for x in S if x != '']
+    v=[float(x) for x in q]
+    #%%
+    frame_num=int(len(v)/24)
+    W=np.random.rand(24,frame_num)
+    for i in range(0,frame_num):
+        W[:,i]=np.round(v[24*i:24*(i+1)],1)
+    file.close()
+    np.round(W[0:21,:])	
+    return W
+
+
+path="/home/salar-basiri/temp"
+
+
+def give_id(x):
+  b=np.zeros(x.shape[0])
+  for i in range (0,x.shape[0]):
+    for j in range(0,x.shape[1]):
+      if x[i,j]==1:
+        b[i]=j;
+        
+  return b  
+
+def my_search(a,x):
+  b=np.zeros(a.shape[0])
+  for i in range (0,a.shape[0]):
+    for j in range(0,a.shape[1]):
+      if a[i,j]==x:
+        b[i]=j;
+        
+  return b       
+
+def norm(mat):
+	s=mat.shape[1]
+	t=np.linspace(0,s,60)
+	t=t.astype(int)
+	t[-1]=t[-1]-1
+	xx=np.zeros([mat.shape[0],60])
+	for j in range(0,mat.shape[0]):
+		for i in range (0,60):
+			xx[j,i]=mat[j,t[i]]
+		
+	
+	ss=xx.shape[0]
+	y=xx.copy()
+	for i in range(0,ss):
+		M=np.max(xx[i,:])
+		m=np.min(xx[i,:])
+		y[i,:]=xx[i,:]*255/(M-m)-255*m/(M-m)
+	return y
+
+
+
+p=norm(return_mat(path))
+#plt.imshow(p)
+#plt.savefig('fig2.png')
+#model=Sequential()
+from keras.models import load_model
+model=load_model("/home/salar-basiri/model5.HDF5")
+#print(model.summary())
+p=p.reshape(1,24,60,1)
+mm=model.predict(p)
+nn=np.sort(mm)
+print('******************************************')
+print('******************************************')
+print('******************************************')
+p1=str(classes.get(int(give_id(np.round(mm))[0])))+' : '+str(np.round(nn[0,-1]*100,1))+'%'
+p2=str(classes.get(int(my_search(mm,nn[0,-2])[0])))+' : '+str(np.round(nn[0,-2]*100,1))+'%'
+print(p1)
+if nn[0,-2] >= 0.005:
+	print(p2)
+print('******************************************')
+print('******************************************')
+print('******************************************')
+
+#print(return_mat(path))
+
+
+
+
+class my_class():
+	def __init__(self):
+
+		rospy.init_node('Guess')
+		self.pub=rospy.Publisher('Guess',String,queue_size=20)
+		self.rate=rospy.Rate(1)		
+		
+
+	def start_pub(self):
+		while not rospy.is_shutdown():
+			self.result=p1+' '+p2
+			#self.result='salam'
+			self.rate.sleep()
+			self.pub.publish(self.result)
+			rospy.loginfo("result is : {}".format(self.result))
+
+
+if __name__ == '__main__':
+	s=my_class()
+	s.start_pub()

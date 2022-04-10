@@ -1,0 +1,175 @@
+SEPCS:
+
+ID = 5
+NAME = Mohsen
+
+WORDS PASSED = 
+___
+9
+9
+6
+12
+7
+_ _ _
+WORDS FAILED = 
+___
+13
+10
+14
+_ _ _
+--------------------
+
+--------------------
+SESSION 1:
+WORD = danestan
+DATE = 2020-05-26 13:39:55.624076
+
+The teaching will be based on the WSCM Module:
+
+RATING = 50
+STAT = MEDIUM
+****
+danestan here is 50 (MEDIUM)
+
+RASA WILL DO IT 3.0 TIMES WITH THE TIMING = 5.0.
+
+The user performance at the end of the section:
+
+rep = 2
+acu = 0.6669999957084656
+spd = 7.81
+--------------------
+SESSION 2:
+WORD = danestan
+DATE = 2020-05-26 13:41:23.251134
+
+The teaching will be based on the WSCM Module:
+
+RATING = 37.90473952658443
+STAT = MEDIUM
+****
+danestan here is 62.095268333443755 (MEDIUM)
+
+RASA WILL DO IT 4.0 TIMES WITH THE TIMING = 2.07.
+
+The user performance at the end of the section:
+
+rep = 1
+acu = 0.9670000076293945
+spd = 6.4
+--------------------
+SESSION 3:
+WORD = hesadat
+DATE = 2020-05-26 13:43:03.893330
+
+The teaching will be based on the WSCM Module:
+
+RATING = 68.93682114233823
+STAT = STRONG
+****
+hesadat here is 50 (MEDIUM)
+
+RASA WILL DO IT 1.0 TIMES WITH THE TIMING = 8.79.
+
+The user performance at the end of the section:
+
+rep = 1.0
+acu = 0.0
+spd = 7.24
+
+--------------------
+SESSION 4:
+WORD = qahveiy
+DATE = 2020-05-26 13:45:15.403103
+
+The teaching will be based on the WSCM Module:
+
+RATING = 47.672446619242294
+STAT = MEDIUM
+****
+qahveiy here is 17.694592179873602 (EASY)
+
+RASA WILL DO IT 1.0 TIMES WITH THE TIMING = 9.53.
+
+The user performance at the end of the section:
+
+rep = 1
+acu = 0.9929999709129333
+spd = 6.39
+--------------------
+SESSION 5:
+WORD = dars
+DATE = 2020-05-26 13:46:15.755142
+
+The teaching will be based on the WSCM Module:
+
+RATING = 61.59558661505267
+STAT = MEDIUM
+****
+dars here is 47.5733987881428 (MEDIUM)
+
+RASA WILL DO IT 2.0 TIMES WITH THE TIMING = 7.58.
+
+The user performance at the end of the section:
+
+rep = 1
+acu = 1.0
+spd = 5.875
+--------------------
+SESSION 6:
+WORD = eshtebah
+DATE = 2020-05-26 13:47:20.419287
+
+The teaching will be based on the WSCM Module:
+
+RATING = 70.81231560414304
+STAT = STRONG
+****
+eshtebah here is 65.20325159991256 (HARD)
+
+RASA WILL DO IT 2.0 TIMES WITH THE TIMING = 6.22.
+
+The user performance at the end of the section:
+
+rep = 2.0
+acu = 0.0
+spd = 5.995
+--------------------
+SESSION 7:
+WORD = ghamgin
+DATE = 2020-05-26 13:48:37.430772
+
+The teaching will be based on the WSCM Module:
+
+RATING = 56.49767509416442
+STAT = MEDIUM
+****
+ghamgin here is 41.0306700672788 (MEDIUM)
+
+RASA WILL DO IT 2.0 TIMES WITH THE TIMING = 7.63.
+
+The user performance at the end of the section:
+
+rep = 2.0
+acu = 0.0
+spd = 5.97
+
+--------------------
+SESSION 8:
+WORD = bale
+DATE = 2020-05-26 13:51:52.861333
+
+The teaching will be based on the WSCM Module:
+
+RATING = 46.74104814081164
+STAT = MEDIUM
+****
+bale here is 100 (HARD)
+
+RASA WILL DO IT 5.0 TIMES WITH THE TIMING = 1.0.
+
+The user performance at the end of the section:
+
+rep = 1
+acu = 0.5059999823570251
+spd = 5.878

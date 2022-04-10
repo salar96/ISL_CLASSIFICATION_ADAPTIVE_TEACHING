@@ -1,0 +1,112 @@
+EPCS:
+
+ID = 5
+NAME = Mohsen
+
+WORDS PASSED = 
+___
+9
+_ _ _
+WORDS FAILED = 
+___
+6
+10
+8
+13
+_ _ _
+--------------------
+--------------------
+SESSION 1:
+WORD = qahveiy
+DATE = 2020-05-27 11:41:40.362941
+
+The teaching will be based on the WSCM Module:
+
+RATING = 50
+STAT = MEDIUM
+****
+qahveiy here is 11.316923215714532 (EASY)
+
+RASA WILL DO IT 1.0 TIMES WITH THE TIMING = 10.0.
+
+The user performance at the end of the section:
+
+rep = 1.0
+acu = 0.0
+spd = 6.74
+--------------------
+SESSION 2:
+WORD = eshtebah
+DATE = 2020-05-27 11:42:26.576827
+
+The teaching will be based on the WSCM Module:
+
+RATING = 0.17771204064861834
+STAT = WEAK
+****
+eshtebah here is 100 (HARD)
+
+RASA WILL DO IT 5.0 TIMES WITH THE TIMING = 1.0.
+
+The user performance at the end of the section:
+
+rep = 5.0
+acu = 0.0
+spd = 10.24
+--------------------
+SESSION 3:
+WORD = danestan
+DATE = 2020-05-27 11:45:52.969420
+
+The teaching will be based on the WSCM Module:
+
+RATING = 0
+STAT = WEAK
+****
+danestan here is 31.06319595507173 (EASY)
+
+RASA WILL DO IT 3.0 TIMES WITH THE TIMING = 4.03.
+
+The user performance at the end of the section:
+
+rep = 1
+acu = 0.3330000042915344
+spd = 7.293
+--------------------
+SESSION 4:
+WORD = na
+DATE = 2020-05-27 11:47:33.979157
+
+The teaching will be based on the WSCM Module:
+
+RATING = 0
+STAT = WEAK
+****
+na here is 36.778265154642455 (EASY)
+
+RASA WILL DO IT 4.0 TIMES WITH THE TIMING = 3.12.
+
+The user performance at the end of the section:
+
+rep = 4.0
+acu = 0.0729999989271164
+spd = 6.528
+--------------------
+SESSION 5:
+WORD = hesadat
+DATE = 2020-05-27 11:49:28.700910
+
+The teaching will be based on the WSCM Module:
+
+RATING = 0
+STAT = WEAK
+****
+hesadat here is 100 (HARD)
+
+RASA WILL DO IT 5.0 TIMES WITH THE TIMING = 1.0.
+
+The user performance at the end of the section:
+
+rep = 5.0
+acu = 0.003000000026077032
+spd = 8.532

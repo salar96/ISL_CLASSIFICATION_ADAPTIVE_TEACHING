@@ -1,0 +1,73 @@
+SEPCS:
+
+ID = 5
+NAME = Mohsen
+
+WORDS PASSED = 
+___
+_ _ _
+WORDS FAILED = 
+___
+12
+3
+10
+_ _ _
+--------------------
+
+--------------------
+SESSION 1:
+WORD = dars
+DATE = 2020-05-26 14:03:56.260953
+
+The teaching will be based on the WSCM Module:
+
+RATING = 50
+STAT = MEDIUM
+****
+dars here is 19.176639457842974 (EASY)
+
+RASA WILL DO IT 1.0 TIMES WITH THE TIMING = 10.0.
+
+The user performance at the end of the section:
+
+rep = 1.0
+acu = 0.0
+spd = 6.03
+--------------------
+SESSION 2:
+WORD = sefid
+DATE = 2020-05-26 14:04:32.568747
+
+The teaching will be based on the WSCM Module:
+
+RATING = 5.239658622872113
+STAT = WEAK
+****
+sefid here is 4.867876425724839 (EASY)
+
+RASA WILL DO IT 3.0 TIMES WITH THE TIMING = 5.0.
+
+The user performance at the end of the section:
+
+rep = 3.0
+acu = 0.0
+spd = 6.183
+--------------------
+SESSION 3:
+WORD = eshtebah
+DATE = 2020-05-26 14:05:58.118416
+
+The teaching will be based on the WSCM Module:
+
+RATING = 0
+STAT = WEAK
+****
+eshtebah here is 84.31999429700612 (HARD)
+
+RASA WILL DO IT 5.0 TIMES WITH THE TIMING = 1.0.
+
+The user performance at the end of the section:
+
+rep = 5.0
+acu = 0.09300000220537186
+spd = 7.148
